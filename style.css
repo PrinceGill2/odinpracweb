@@ -2,8 +2,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 175vh;
+    height: 200vh;
     align-items: stretch;
+    margin: 0;
 }
 
 .links {
@@ -42,7 +43,7 @@ a {
 
 .hero { 
     display: flex;
-    flex: 2 0 auto;
+    flex: 3 0 auto;
     justify-content: center;
     background-color: #1f2937;
     gap: 16px;
@@ -75,7 +76,7 @@ a {
     display: flex;
     width: fit-content;
     background-color: #3883f6 ;
-    color: wheat;
+    color: #e5e7eb;
    
 }
 
@@ -162,12 +163,45 @@ a {
     font-size: 24px;
 }
 
-.sign { 
+.sign {
+    display: flex;
+    flex-direction: column;
     flex: 1 0 auto;
+    height: 350px;
+    justify-content: center;
+
+    
+
+}
+
+.blue { 
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #3883f6;
+    border-width: 2px;
+    border-color: #3883f6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.call { 
+
+    font-size: 24px;
+    font-weight: bold;
+    color: #e5e7eb;
+    
 
 }
 
 .footer { 
     flex: 0 1 auto;
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    color: #e5e7eb;
 
 }
