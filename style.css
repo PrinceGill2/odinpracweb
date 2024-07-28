@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 120vh;
+    height: 175vh;
     align-items: stretch;
 }
 
@@ -98,19 +98,72 @@ a {
 }
 
 .content { 
-    flex: 2 0 auto;
+    flex: 1 0 auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 24px;
 
+}
+
+.top { 
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937
+}
+
+.stuff { 
+    display: flex;
+    gap: 24px;
+}
+
+.thing { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box { 
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 4px;
+    border-radius: 25px;
+}
+
+.disctext { 
+    width: 150px;
+    text-align: center;
 }
 
 .quote { 
-    flex: 2 0 auto;
+    flex: 1.5 0 auto;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
 
+.inspiring { 
+    font-size: 36px;
+    font: light italic;
+    color: #1f2937;
+    width: 800px;
+
+}
+
+.fella {
+    align-self: flex-end;
+    padding-right: 200px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
 .sign { 
-    flex: 1 1  auto;
+    flex: 1 0 auto;
 
 }
 
